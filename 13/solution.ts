@@ -1,6 +1,5 @@
 import * as fs from "fs";
 import * as path from "path";
-import { parse } from "ts-node";
 
 const main = () => {
   const data = fs.readFileSync(path.join(__dirname, "./data"), "utf8");
